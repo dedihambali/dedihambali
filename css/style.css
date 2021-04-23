@@ -1,0 +1,99 @@
+header {
+  background-image: url('/img/colection.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 850px;
+  margin-top: -50px;
+  position: relative;
+}
+
+header .container .content {
+  position: absolute;
+  top: 150px;
+}
+
+header .container .content h2,
+h4,
+h5,
+p {
+  font-weight: lighter;
+}
+
+nav ul li:hover {
+  background-color: rgb(0, 0, 255, 0.7) !important;
+}
+
+.fan-art-club {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: top;
+  padding: 10%;
+}
+
+#name-club {
+  margin-top: -7%;
+}
+
+
+#load-self {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 200;
+
+}
+
+nav .nav-wrapper .brand-logo,
+nav .nav-wrapper .sidenav-trigger,
+nav .nav-wrapper .topnav,
+header .container .content {
+  text-shadow: 1px 1px 3px black;
+
+}
+
+
+
+
+/* mobile css */
+@media screen and (max-width:992px) {
+
+
+  header {
+
+    min-height: 85vh;
+  }
+
+  header .container .content {
+    top: 110px;
+    right: 10px;
+    left: 10px;
+    margin: auto;
+  }
+
+  header .container .content h2,
+  h4,
+  h5,
+  p {
+    text-align: center;
+  }
+
+  header .container .content h2 {
+    font-size: 40px;
+  }
+
+  header .container .content h4 {
+    font-size: 27px;
+  }
+
+  header .container .content h5 {
+    font-size: 20px;
+  }
+
+  header .container .content p {
+    font-size: 12px;
+  }
+}

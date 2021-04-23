@@ -1,0 +1,24 @@
+{
+  "name": "football club epl",
+  "gcm_sender_id": "1006665517867",
+  "short_name": "football",
+  "description": "web informasi tentang sepakbola liga ingris",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/img/192-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/512-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
